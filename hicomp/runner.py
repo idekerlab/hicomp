@@ -4,7 +4,8 @@ import os
 import time
 import logging
 from cellmaps_utils import logutils
-from cellmaps_utils.provenance import ProvenanceUtil
+from hicomp.exceptions import HicompError
+
 
 import hicomp
 
